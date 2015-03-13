@@ -183,13 +183,11 @@ Function displayVideo(args As Dynamic)
     'StreamFormat = "mp4"
     'title = "Dan Gilbert asks, Why are we happy?"
 
-    ' Adsparx's HLS test stream
-    'urls = ["http://cinefunlive-mod.elasticbeanstalk.com/hlslive/ddNational_0.m3u8?adsid=1425893363761163&"]
-    ''urls = ["http://yupplive-manifest-s-env.elasticbeanstalk.com/hlslive/ntv3.m3u8?uuid=1111111111111111&"]
+    ' HLS test stream
     ''session id 16 digits
     sID = getSessionID()
     print "sID: "; sID
-    urls = ["http://yupplive-manifest-s-env.elasticbeanstalk.com/hlslive/ntv3.m3u8"]
+    urls = ["http://XXX/ntv3.m3u8"]
     urls[0] = urls[0] + "?uuid=" + sID + "&"
     print "hls url: "; urls[0]
     
@@ -257,8 +255,8 @@ Function displayVideo(args As Dynamic)
                adID = timedMetaData["TIT2"] 'Title
                print adID
                'if adID <> invalid then
-               '   adUrl = timedMetaData[“adUrl”]
-               '   adSupplier = timedMetaData[“adSupplier”]
+               '   adUrl = timedMetaData[Â“adUrlÂ”]
+               '   adSupplier = timedMetaData[Â“adSupplierÂ”]
                '   adPTS = msg.GetIndex()
                '   Print "AD ID: ";adID
                '   Print "AD URL: ";adURL
