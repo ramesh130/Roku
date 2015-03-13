@@ -1,0 +1,13 @@
+title=Simple Video Player
+subtitle=Edit appMain.brs to test your video
+major_version=1
+minor_version=1
+build_version=65
+mm_icon_focus_hd=pkg:/images/MainMenu_Icon_Center_HD.png
+mm_icon_side_hd=pkg:/images/MainMenu_Icon_Side_HD.png
+mm_icon_focus_sd=pkg:/images/MainMenu_Icon_Center_SD43.png
+mm_icon_side_sd=pkg:/images/MainMenu_Icon_Side_SD43.png
+splash_screen_sd=pkg:/images/Overhang_BackgroundSlice_MLB_SD43.png
+splash_screen_hd=pkg:/images/Overhang_BackgroundSlice_HD.png
+splash_color=#000000
+splash_min_time=2
